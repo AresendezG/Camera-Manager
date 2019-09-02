@@ -12,6 +12,7 @@ using namespace std;
 int main(int argc, char* argv[])
 
 //Requires Mode, Camera, Image Location
+//Usage example: CamManager.exe snapshot 0 c:\test\testimage.jpg
 
 {
 
