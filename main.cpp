@@ -69,7 +69,7 @@ using namespace std;
 				VideoCapture cap(cam); // Initialize camera
 				// Get the frame
 				Mat save_img; cap >> save_img;
-				this_thread::sleep_for(chrono::seconds(3));
+				this_thread::sleep_for(chrono::seconds(delay));
 				cap >> save_img; //Take snapshot after 3 seconds
 
 
